@@ -1,0 +1,18 @@
+//-----> $SPACE Variables
+
+$unit: 6px;
+$space: $unit * 2;
+$space--medium: $space * 1.5;
+$padding: $unit;
+$pagemaxwidth: 1024px;
+
+
+
+//-----> $COLORS
+$white: white;
+$pink: rgb(223, 56, 225);
+$black : rgb(21, 21, 21);
+$grey: #d1d1d1;
+$grey-dark: darken($grey, 60);
+$light-turquesa: rgb(14, 197, 173);
+$main-color: $pink;

@@ -11,8 +11,66 @@ html  {
   h1, h3 {
     text-align: center;
   }
+
+  h2 {
+    font-family: 'Syne', sans-serif;
+    color: $white;
+  }
   
   h3{
     font-weight: 500;
-    color: rgb(97, 97, 97);
+    color: $white;
   }
+  h6{
+    font-family: 'Roboto', sans-serif;
+    font-style: Light;
+    color: $white;
+  }
+  h1{
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    color: $white;
+  }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: $white;
+}
+.maintext{
+  margin: 10%;
+}
+  .name {
+    font-family: 'Syne', sans-serif;
+    color: $white;
+}
+
+.butt {
+  border: 1px outset $white;
+  background-color: $pink;
+  color: $white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor:pointer;
+}
+
+.div1, .div3 {
+  margin-left: 10%;
+}
+
+.div2, .div4 {
+  margin-right: 10%;
+}
+
+
+
+.righttext {
+  text-align: right;
+}
+
+.rightpar{
+  
+  display: flex;
+  justify-content: flex-end;
+
+}

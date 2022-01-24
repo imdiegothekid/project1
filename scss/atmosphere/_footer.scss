@@ -1,9 +1,9 @@
-.toppage{
+.bottompage{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     margin-left: 10px;
     margin-right: 10px;
-    //position: sticky;//
+    //position: fixed;//
 
 }

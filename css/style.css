@@ -26,13 +26,30 @@ h3 {
 
 h6 {
   font-family: "Roboto", sans-serif;
-  font-style: Light;
+  font-weight: 300;
   color: white;
 }
 
 h1 {
   font-weight: 500;
   font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 60px;
+  margin: 8px;
+}
+
+h4 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+}
+
+h5 {
+  text-align: center;
+  font-family: "Syne", sans-serif;
+  font-size: 40px;
   color: white;
 }
 
@@ -42,12 +59,31 @@ p {
 }
 
 .maintext {
-  margin: 10%;
+  margin-bottom: 38px;
+  margin-top: 6%;
 }
 
 .name {
   font-family: "Syne", sans-serif;
   color: white;
+}
+
+.div1, .div3 {
+  margin-left: 10%;
+  max-width: 30%;
+}
+
+.div2, .div4 {
+  margin-right: 10%;
+}
+
+.righttext {
+  text-align: end;
+}
+
+.rightpar {
+  max-width: 30%;
+  margin: auto 0em auto auto;
 }
 
 .butt {
@@ -57,28 +93,10 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
   cursor: pointer;
-}
-
-.div1, .div3 {
-  margin-left: 10%;
-}
-
-.div2, .div4 {
-  margin-right: 10%;
-}
-
-.righttext {
-  text-align: right;
-}
-
-.rightpar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 
 .parent {
@@ -90,6 +108,7 @@ p {
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  margin: 10%;
 }
 
 .parent > *:nth-child(1) {
@@ -177,4 +196,11 @@ p {
           align-items: flex-end;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.getintouch {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: white;
 }

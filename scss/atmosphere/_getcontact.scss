@@ -1,6 +1,38 @@
+.contact {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
 .getintouch {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: $white
 }
+
+
+
+a.contactlink {
+  color: $white;
+  display: flex; 
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+}
+
+a.contactlink:hover {
+  color: $pink;
+  background-color: transparent;
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+  }
+  .hijo {
+    padding: 10px;
+    margin: 10px;
+    font-weight: 300;
+  }

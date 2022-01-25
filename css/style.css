@@ -1,5 +1,6 @@
 html {
   font-size: 100%;
+  scroll-behavior: smooth;
 }
 
 body, html {
@@ -28,6 +29,7 @@ h6 {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: white;
+  font-size: 14px;
 }
 
 h1 {
@@ -51,6 +53,25 @@ h5 {
   font-family: "Syne", sans-serif;
   font-size: 40px;
   color: white;
+  margin-top: 2px;
+  margin-bottom: 40px;
+}
+
+.cta {
+  font-family: "Roboto", sans-serif;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #df38e1;
+  border: white 1px solid;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
@@ -69,12 +90,12 @@ p {
 }
 
 .div1, .div3 {
-  margin-left: 10%;
+  margin-left: 6%;
   max-width: 30%;
 }
 
 .div2, .div4 {
-  margin-right: 10%;
+  margin-right: 6%;
 }
 
 .righttext {
@@ -84,6 +105,7 @@ p {
 .rightpar {
   max-width: 30%;
   margin: auto 0em auto auto;
+  text-align: right;
 }
 
 .butt {
@@ -182,6 +204,7 @@ p {
           align-items: center;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 2%;
 }
 
 .bottompage {
@@ -198,9 +221,72 @@ p {
   margin-right: 10px;
 }
 
+.watermark {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  margin-bottom: 20px;
+}
+
+.contact {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .getintouch {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: white;
+}
+
+a.contactlink {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+a.contactlink:hover {
+  color: #df38e1;
+  background-color: transparent;
+}
+
+.padre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hijo {
+  padding: 10px;
+  margin: 10px;
+  font-weight: 300;
+}
+
+a:link {
+  font-weight: 400;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.rrss:hover {
+  color: #df38e1;
+  background-color: transparent;
 }

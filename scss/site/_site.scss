@@ -128,7 +128,7 @@ height: 20vh;
   }
 
 
-  @media screen and(max-width:600px){
+  @media all and(max-width:600px){
     .div1, .div3 {
       align-items: center;
       
@@ -153,7 +153,7 @@ height: 20vh;
 
   }
 
-  @media screen and(max-width:600px){
+  @media all and(max-width:600px){
     .leftpar {
       max-width: 90%;
       text-align: center;
@@ -168,7 +168,7 @@ height: 20vh;
 
   }
 
-  @media screen and(max-width:600px){
+  @media all and(max-width:600px){
     .righttext {
       text-align: center;
     }

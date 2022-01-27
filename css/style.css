@@ -121,7 +121,7 @@ p {
   margin-right: 6%;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
   .div1, .div3 {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -142,7 +142,7 @@ p {
   max-width: 30%;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
   .leftpar {
     max-width: 90%;
     text-align: center;
@@ -154,7 +154,7 @@ p {
   text-align: right;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
   .righttext {
     text-align: center;
   }
@@ -316,7 +316,7 @@ img.graphic {
   text-align: right;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
   img.artist {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -328,7 +328,7 @@ img.graphic {
     margin-right: auto;
   }
 }
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
   img.graphic {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -340,7 +340,7 @@ img.graphic {
     margin-right: auto;
   }
 }
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
   img.mepresento {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -377,7 +377,7 @@ img.myselfpic {
   position: absolute;
 }
 
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
   img.myselfpic {
     display: none;
   }
@@ -502,6 +502,7 @@ a.contactlink:hover {
   }
 }
 a:link {
+  color: white;
   font-weight: 400;
   background-color: transparent;
   text-decoration: none;

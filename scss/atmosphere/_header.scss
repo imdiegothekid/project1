@@ -1,19 +1,14 @@
 
-header{
-    position: sticky;
-    top: 0px;
-}
-
-
-.toppage{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 2%;
+    position: fixed;
+    top: 0px;
+    width: 97vw;
+    background-color: rgba($color: $black, $alpha: .95);
+    padding-top: 3vh;
     
-    //position: sticky;//
-
+     
 }
 

@@ -1,6 +1,10 @@
+
+
 html  {
     font-size: 100%;
     scroll-behavior: smooth;
+    box-sizing: border-box;
+
 
   }
   body, html {
@@ -17,6 +21,7 @@ html  {
   h2 {
     font-family: 'Syne', sans-serif;
     color: $white;
+    margin-bottom: 4px;
   }
   
   h3{
@@ -94,9 +99,11 @@ html  {
   font-family: 'Roboto', sans-serif;
   color: $white;
   }
+
   .maintext{
-  margin-bottom: 38px;
-  margin-top: 6%;
+  margin-bottom: 50px;
+  margin-top: 200px;
+  
   }
   .name {
     font-family: 'Syne', sans-serif;
@@ -104,25 +111,35 @@ html  {
   
   }
 
+.divespaciado{
 
+height: 20vh;
+}
   .div1, .div3 {
   margin-left: 6%;
-  max-width: 30%;
+  
   }
 
   .div2, .div4 {
   margin-right: 6%;
 
-
   }
+
+
+  //.picturetext { position: relative; top: -5vh; } 
 
   .righttext{
   text-align: end;
   }
 
+  .leftpar {
+    max-width: 30%;
+
+  }
+
   .rightpar{
   max-width: 30%;
-  margin: auto 0em auto auto;
+  margin: 1% 0em auto auto;
   text-align: right;
 
   }
@@ -139,3 +156,9 @@ html  {
   padding-right: 16px;
   cursor:pointer;
   }
+
+
+
+
+
+

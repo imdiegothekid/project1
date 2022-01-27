@@ -4,10 +4,20 @@
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    margin: 10%;
+    margin-top: 52vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 2; }
     .div2 { grid-area: 2 / 1 / 3 / 2; }
     .div3 { grid-area: 3 / 1 / 4 / 2; }
     .div4 { grid-area: 4 / 1 / 5 / 2; }
+
+@media all and (max-width:1000px){
+    .parent{
+        margin: 2%;
+        }
+      }

@@ -18,3 +18,44 @@ img {
       transform: rotate(359deg);
     }
   }
+
+  img.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img.artist {
+    display: flex;
+    justify-content: end;
+    margin: 1% 0em auto auto;
+    text-align: right;
+  }
+
+  img.graphic {
+    display: flex;
+    justify-content: end;
+    margin: 1% 0em auto auto;
+    text-align: right;
+  }
+
+  img.web {
+    z-index: -1;
+  }
+
+  img.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6vh;
+  }
+
+  img.myselfpic {
+    margin-left: 14%;
+    z-index: -1;
+    position: absolute;
+  }

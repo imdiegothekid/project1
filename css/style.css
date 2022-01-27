@@ -123,15 +123,12 @@ p {
 
 @media all and (max-width: 600px) {
   .div1, .div3 {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    margin-right: 1%;
+    margin-left: 0%;
   }
 
   .div2, .div4 {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    margin-right: 1%;
   }
 }
 .righttext {
@@ -142,12 +139,6 @@ p {
   max-width: 30%;
 }
 
-@media all and (max-width: 600px) {
-  .leftpar {
-    max-width: 90%;
-    text-align: center;
-  }
-}
 .rightpar {
   max-width: 30%;
   margin: 1% 0em auto auto;
@@ -155,13 +146,27 @@ p {
 }
 
 @media all and (max-width: 600px) {
+  .leftpar {
+    max-width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .righttext {
     text-align: center;
   }
 
   .rightpar {
     max-width: 90%;
+    margin: 0%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p.rightpar {
+    margin-top: 2vh;
   }
 }
 .butt {
@@ -249,6 +254,19 @@ p {
     margin: 2%;
   }
 }
+@media all and (max-width: 600px) {
+  div.div4 {
+    padding-top: 6vh;
+  }
+
+  div.div2 {
+    padding-top: 6vh;
+  }
+
+  div.div1 {
+    padding-top: 6vh;
+  }
+}
 img {
   max-width: 100%;
   z-index: 0;
@@ -316,6 +334,10 @@ img.graphic {
   text-align: right;
 }
 
+img.web {
+  z-index: -1;
+}
+
 @media all and (max-width: 600px) {
   img.artist {
     display: -webkit-box;
@@ -352,10 +374,19 @@ img.graphic {
     margin-right: auto;
   }
 }
-img.web {
-  z-index: -1;
+@media all and (max-width: 600px) {
+  img.web {
+    z-index: -1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-
 img.mail {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -381,7 +412,20 @@ img.myselfpic {
   img.myselfpic {
     display: none;
   }
+
+  img.bigsmile {
+    display: none;
+  }
 }
+img.bigsmile {
+  margin-left: 40vw;
+  z-index: -1;
+  position: absolute;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -394,7 +438,7 @@ header {
           align-items: center;
   position: fixed;
   top: 0px;
-  width: 97vw;
+  width: 97.5vw;
   background-color: rgba(21, 21, 21, 0.95);
   padding-top: 3vh;
 }

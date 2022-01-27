@@ -19,3 +19,23 @@
     margin-bottom: 20px;
     margin-right: 1vw;
 }
+
+@media all and (max-width:600px){
+    .icon {
+        margin-right: 2vw;
+    }
+}
+
+
+@media all and (max-width:600px){
+    .bottompage{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-left: 10px;
+        margin-right: 10px;
+        position: relative;
+        width: 100%;
+
+       }
+}

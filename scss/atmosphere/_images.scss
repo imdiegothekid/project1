@@ -25,6 +25,7 @@ img {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    
   }
 
   img.artist {
@@ -41,6 +42,34 @@ img {
     text-align: right;
   }
 
+  @media screen and(max-width:600px){
+
+    img.artist{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    }
+    @media screen and(max-width:600px){
+
+      img.graphic{
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      }
+      }
+
+      @media screen and(max-width:600px){
+
+        img.mepresento{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        }
   img.web {
     z-index: -1;
   }
@@ -59,3 +88,10 @@ img {
     z-index: -1;
     position: absolute;
   }
+
+  @media screen and(max-width:600px){
+
+    img.myselfpic {
+      display: none;
+    }
+    }

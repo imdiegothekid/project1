@@ -121,6 +121,19 @@ p {
   margin-right: 6%;
 }
 
+@media screen and (max-width: 600px) {
+  .div1, .div3 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .div2, .div4 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 .righttext {
   text-align: end;
 }
@@ -129,12 +142,28 @@ p {
   max-width: 30%;
 }
 
+@media screen and (max-width: 600px) {
+  .leftpar {
+    max-width: 90%;
+    text-align: center;
+  }
+}
 .rightpar {
   max-width: 30%;
   margin: 1% 0em auto auto;
   text-align: right;
 }
 
+@media screen and (max-width: 600px) {
+  .righttext {
+    text-align: center;
+  }
+
+  .rightpar {
+    max-width: 90%;
+    text-align: center;
+  }
+}
 .butt {
   border: 1px outset white;
   background-color: #df38e1;
@@ -215,7 +244,7 @@ p {
   grid-area: 4/1/5/2;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 600px) {
   .parent {
     margin: 2%;
   }
@@ -287,6 +316,42 @@ img.graphic {
   text-align: right;
 }
 
+@media screen and (max-width: 600px) {
+  img.artist {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  img.graphic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  img.mepresento {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 img.web {
   z-index: -1;
 }
@@ -312,6 +377,11 @@ img.myselfpic {
   position: absolute;
 }
 
+@media screen and (max-width: 600px) {
+  img.myselfpic {
+    display: none;
+  }
+}
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -356,6 +426,28 @@ header {
   margin-right: 1vw;
 }
 
+@media all and (max-width: 600px) {
+  .icon {
+    margin-right: 2vw;
+  }
+}
+@media all and (max-width: 600px) {
+  .bottompage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    width: 100%;
+  }
+}
 .contact {
   margin-right: auto;
   margin-left: auto;
@@ -404,6 +496,11 @@ a.contactlink:hover {
   height: 18vh;
 }
 
+@media all and (max-width: 600px) {
+  .divfinal {
+    height: 8vh;
+  }
+}
 a:link {
   font-weight: 400;
   background-color: transparent;

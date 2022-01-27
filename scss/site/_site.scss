@@ -120,10 +120,26 @@ height: 20vh;
   
   }
 
+  
+
   .div2, .div4 {
   margin-right: 6%;
 
   }
+
+
+  @media screen and(max-width:600px){
+    .div1, .div3 {
+      align-items: center;
+      
+      }
+      .div2, .div4 {
+        align-items: center;
+        
+        }
+  
+  }
+
 
 
   //.picturetext { position: relative; top: -5vh; } 
@@ -137,11 +153,32 @@ height: 20vh;
 
   }
 
+  @media screen and(max-width:600px){
+    .leftpar {
+      max-width: 90%;
+      text-align: center;
+    }
+  
+  }
+
   .rightpar{
   max-width: 30%;
   margin: 1% 0em auto auto;
   text-align: right;
 
+  }
+
+  @media screen and(max-width:600px){
+    .righttext {
+      text-align: center;
+    }
+
+    .rightpar {
+      max-width: 90%;
+      
+      text-align: center;
+    }
+  
   }
 
   .butt {

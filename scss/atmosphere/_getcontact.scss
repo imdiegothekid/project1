@@ -41,3 +41,10 @@ a.contactlink:hover {
 .divfinal {
   height: 18vh;
 }
+
+
+@media all and (max-width:600px){
+  .divfinal {
+    height: 8vh;
+  }
+}

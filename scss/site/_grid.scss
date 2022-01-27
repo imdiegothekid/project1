@@ -16,8 +16,9 @@
     .div3 { grid-area: 3 / 1 / 4 / 2; }
     .div4 { grid-area: 4 / 1 / 5 / 2; }
 
-@media all and (max-width:1000px){
+@media all and (max-width:600px){
     .parent{
         margin: 2%;
+        
         }
       }
